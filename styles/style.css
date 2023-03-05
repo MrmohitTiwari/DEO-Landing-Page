@@ -1,0 +1,117 @@
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        font-family: "Poppins", sans-serif;
+
+    }
+    body{
+        background-color: #570b43;
+        background-image: url("../assets/2.png");
+        background-attachment:initial;
+        background-repeat: no-repeat;
+        position: relative;
+    
+        background-size: cover;
+    }
+    .head-cont{
+        display: flex;
+        justify-content: space-between;
+        background-color:black;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        overflow: hidden;
+    }
+    .header-logo{
+        margin-left: 38px;
+    height: 45px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    }
+    .head-cont ul{
+        display: flex;
+        gap: 60px;
+        list-style: none;
+    margin-top: 4px;
+
+    }
+    .stick{
+        color: white;
+     height: 40px;
+     border: solid #747474 1px;
+      margin-right: 20px;
+
+      margin-top: 0px;
+     
+    }
+.list-item li a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    
+    font-weight: 600;
+}
+.left-header div button{
+    margin-right: 45px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: #b90ec5;
+    font-weight: 700;
+    color: white;
+    padding:5px 18px;
+    border-radius: 4px;
+    font-family: "Poppins";
+    cursor: pointer;
+    border: navajowhite;
+
+  
+}
+
+/* *****************hero-Section **************/
+
+.hero-section{
+ position: relative;
+  
+}
+.hero-above{
+    margin: auto;
+    width:42%;
+    margin-top: 140px;
+
+
+}
+.hero-above h1{
+    font-size: 60px;
+    line-height: 1.3;
+    color: white;
+}
+.hero-above h2{
+    color: #f1eef3;
+}
+.mid-button {
+    margin: auto;
+    /* width: 22%; */
+    margin-top: 30px;
+    margin-left: 42.1%;
+
+}
+.mid-button button{
+    margin-right: 45px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: #b90ec5;
+    font-weight: 700;
+    color: white;
+    padding:10px 25px;
+    border-radius: 4px;
+    font-family: "Poppins";
+    cursor: pointer; 
+    border: none;
+    font-size: larger;
+  
+
+  
+}
